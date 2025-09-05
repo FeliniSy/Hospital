@@ -1,4 +1,9 @@
+package MedicalRecord;
+
+import Patient.Patient;
+
 public class MedicalRecord {
+
     private Patient patient;
     private String diagnosis;
 

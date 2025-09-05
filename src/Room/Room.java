@@ -1,4 +1,9 @@
+package Room;
+
+import Patient.Patient;
+
 public class Room {
+
     private int number;
     private boolean occupied;
 

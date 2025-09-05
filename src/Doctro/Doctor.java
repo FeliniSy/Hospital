@@ -1,14 +1,28 @@
-public class Patient {
+package Doctro;
+
+public class Doctor {
+
     private String fullName;
     private int age;
+    private String speciality;
 
-    public Patient(String fullName, int age) {
+    public Doctor(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
     }
 
+    public Doctor(String fullName, int age, String speciality) {
+        this.fullName = fullName;
+        this.age = age;
+        this.speciality = speciality;
+    }
+
     public void setFullName(String fullName) {
         this.fullName = fullName;
+    }
+
+    public String getSpeciality() {
+        return speciality;
     }
 
     public void setAge(int age) {

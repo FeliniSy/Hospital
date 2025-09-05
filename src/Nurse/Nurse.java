@@ -1,24 +1,17 @@
-public class Doctor {
+package Nurse;
+
+public class Nurse {
+
     private String fullName;
     private int age;
-    private String speciality;
 
-    public Doctor(String fullName, int age) {
+    public Nurse(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
-    }
-    public Doctor(String fullName, int age, String speciality) {
-        this.fullName = fullName;
-        this.age = age;
-        this.speciality = speciality;
     }
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
-    }
-
-    public String getSpeciality() {
-        return speciality;
     }
 
     public void setAge(int age) {

@@ -1,4 +1,7 @@
+package Treatment;
+
 public class Treatment {
+
     private String treatmentName;
 
     public Treatment(String treatmentName) {

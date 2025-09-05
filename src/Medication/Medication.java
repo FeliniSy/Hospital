@@ -1,4 +1,7 @@
+package Medication;
+
 public class Medication {
+
     private String name;
     private String dosage;
 
@@ -10,6 +13,7 @@ public class Medication {
     public String getName() {
         return name;
     }
+
     public String getDosage() {
         return dosage;
     }

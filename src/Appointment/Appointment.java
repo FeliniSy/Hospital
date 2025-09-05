@@ -1,6 +1,12 @@
+package Appointment;
+
+import Doctro.Doctor;
+import Patient.Patient;
+
 import java.time.LocalDateTime;
 
 public class Appointment {
+
     private Doctor doctor;
     private Patient patient;
     private LocalDateTime time;

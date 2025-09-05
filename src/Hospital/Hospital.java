@@ -1,11 +1,15 @@
+package Hospital;
+
 public class Hospital {
+
     private String name;
     private String address;
 
     private static int hospitalCount;
+
     static {
         hospitalCount = 0;
-        System.out.println("Hospital class loaded.");
+        System.out.println("Hospital.Hospital class loaded.");
     }
 
     public Hospital(String name, String address) {

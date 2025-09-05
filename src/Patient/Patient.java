@@ -1,8 +1,11 @@
-public class Nurse {
+package Patient;
+
+public class Patient {
+
     private String fullName;
     private int age;
 
-    public Nurse(String fullName, int age) {
+    public Patient(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
     }
